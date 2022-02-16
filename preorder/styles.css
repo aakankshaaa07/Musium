@@ -71,6 +71,7 @@ input {
   border-bottom: 2px solid #1A1A19;
   width: 300px;
   padding: 10px;
+  background-color: #E0E4E7;
 }
 
 input:hover {
@@ -79,6 +80,7 @@ input:hover {
   border-left: 0px;
   border-radius: 0px;
   border-bottom: 2px solid #A25D34;
+  background-color: #E0E4E7;
 }
 
 input:focus {
@@ -87,6 +89,7 @@ input:focus {
   border-left: 0px;
   border-radius: 0px;
   border-bottom: 2px solid #A25D34;
+  background-color: #E0E4E7;
 }
 
 input:active {
@@ -94,6 +97,7 @@ input:active {
   border-right: none;
   border-left: none;
   border-bottom: 2px solid #A25D34;
+  background-color: #E0E4E7;
 }
 
 input[type=submit] {
@@ -148,7 +152,8 @@ input[type=submit]:hover {
         grid-template-columns: 100%;
     -ms-grid-rows: 2fr 0.5fr;
         grid-template-rows: 2fr 0.5fr;
-        grid-template-areas: "form" "sidebar";
+        grid-template-areas: "form"
+ "sidebar";
   }
   input {
     width: 180px;
