@@ -115,6 +115,9 @@
     display: block;
     text-align: left;
   }
+  * {
+    overflow-y: visible;
+  }
   .features {
     display: -ms-grid;
     display: grid;
