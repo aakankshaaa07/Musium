@@ -120,7 +120,7 @@ input:hover {
     right: 0;
     top: 0;
   }
-  * {
+  html {
     overflow-y: scroll;
   }
   .topnav.responsive a {
