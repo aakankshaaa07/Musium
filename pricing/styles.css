@@ -121,7 +121,7 @@ input:hover {
     top: 0;
   }
   html {
-    overflow-y: scroll;
+    overflow-y: visible;
   }
   .topnav.responsive a {
     float: none;
