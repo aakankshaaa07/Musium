@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/features/styles.css">
+  <title>features | musium</title>
+</head>
+<body>
+  <div class="features">
+    <div class="left">
+      <div class="navbar">
+        <div class="topnav" id="myTopnav">
+          <a href="/index.html">home</a>
+          <a href="/features/index.html" class="active">features</a>
+          <a href="/new/index.html">what's new</a>
+          <a href="/pricing/index.html">pricing</a>
+          <a href="/preorder/index.html">pre-order</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="specs">
+        <div class="card">
+          <div class="header">length</div>
+          <div class="spec">3.67 inches</div>
+        </div>
+        <div class="card">
+          <div class="header">width</div>
+          <div class="spec">2.01 inches</div>
+        </div>
+        <div class="card">
+          <div class="header">thickness</div>
+          <div class="spec">0.24 inches</div>
+        </div>
+        <div class="card">
+          <div class="header">weight</div>
+          <div class="spec">57 grams</div>
+        </div>
+        <div class="card">
+          <div class="header">diagonal</div>
+          <div class="spec">6.54 inches</div>
+        </div>
+        <div class="card">
+          <div class="header">bluetooth</div>
+          <div class="spec">5.2</div>
+        </div>
+        <div class="card">
+          <div class="header">contrast ratio</div>
+          <div class="spec">8:1</div>
+        </div>
+        <div class="card">
+          <div class="header">music playback time</div>
+          <div class="spec">50 hours</div>
+        </div>
+        <div class="card">
+          <div class="header">brightness</div>
+          <div class="spec">500 cd/m2</div>
+        </div>
+        <div class="card">
+          <div class="header">wi-fi</div>
+          <div class="spec">802.11a/b/g/n/ac</div>
+        </div>
+        <div class="card">
+          <div class="header">chip</div>
+          <div class="spec">mU5.5</div>
+        </div>
+        <div class="card">
+          <div class="header">sensors</div>
+          <div class="spec">three axis gyro</div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <center>
+        <img class="productImage" src="/assets/product2.png">
+      </center>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/preorder/styles.css">
+  <title>pre order | musium</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html">home</a>
+      <a href="/features/index.html">features</a>
+      <a href="/new/index.html">what's new</a>
+      <a href="/pricing/index.html" >pricing</a>
+      <a href="/preorder/index.html" class="active">pre-order</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <center>
+    <div class="formholder">
+      <div class="form">
+        <label for="name">name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="number">number:</label><br>
+        <input type="number" id="number" name="number"><br><br>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"><br><br><br>
+        <input type="submit" value="submit">
+      </div>
+      <div class="sidebar"></div>
+    </div>
+  </center>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>

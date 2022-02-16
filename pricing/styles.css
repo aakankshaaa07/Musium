@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-color: #1A1A19;
+}
+
+.topnav {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1A1A19;
+  color: #A25D34;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #1A1A19;
+  color: #A25D34;
+}
+
+.topnav a:hover {
+  text-decoration: line-through;
+  color: #D0A380;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.pricingCards {
+  display: -ms-grid;
+  display: grid;
+  padding: 50px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+      grid-template-areas: "starter basic pro";
+}
+
+.starter {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: starter;
+}
+
+.basic {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: basic;
+}
+
+.pro {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: pro;
+}
+
+.card {
+  border: 1px solid #A25D34;
+  color: #A25D34;
+  padding: 20px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.level {
+  font-size: 30px;
+}
+
+.cost {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px 50px;
+  color: #A25D34;
+  background-color: #1A1A19;
+  border: 1px solid #A25D34;
+  margin-top: 30px;
+}
+
+input:hover {
+  color: #1A1A19;
+  background-color: #A25D34;
+  border: 1px solid #1A1A19;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .pricingCards {
+    display: -ms-grid;
+    display: grid;
+    padding: 50px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "starter"  "basic" "pro";
+  }
+}
+/*# sourceMappingURL=styles.css.map */

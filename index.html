@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <title>musium</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="active">home</a>
+      <a href="/features/index.html">features</a>
+      <a href="/new/index.html">what's new</a>
+      <a href="/pricing/styles.css">pricing</a>
+      <a href="/preorder/index.html">pre-order</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <center>
+    <div class="productContainer">
+      <p class="primaryHeading">musium</p>
+      <p class="secondaryHeading">we’ll make playlists for you</p>
+      <img id="tilt" src="/assets/product2.png">
+    </div>
+  </center>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    <script src="/script.js"></script>
+</body>
+</html>
