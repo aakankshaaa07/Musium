@@ -120,6 +120,9 @@ input:hover {
     right: 0;
     top: 0;
   }
+  * {
+    overflow-y: scroll;
+  }
   .topnav.responsive a {
     float: none;
     display: block;
