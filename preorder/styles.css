@@ -72,6 +72,7 @@ input {
   width: 300px;
   padding: 10px;
   background-color: #E0E4E7;
+  outline: none;
 }
 
 input:hover {
